@@ -1,8 +1,11 @@
+import Main from "./page/Main";
+import "./base.css";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        꺄악
+        <Main></Main>
       </header>
     </div>
   );
