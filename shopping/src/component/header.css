@@ -1,8 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 .header-container{
     display: flex;
@@ -18,7 +14,9 @@ html { font-family: 'Inter', sans-serif; }
 span.logo-titie {
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Inter';
     padding-left: 12px;
+    color: black;
 }
 
 div.logo-container{

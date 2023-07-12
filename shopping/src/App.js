@@ -1,12 +1,11 @@
 import Main from "./page/Main";
+import Footer from "./component/footer";
 import "./base.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Main></Main>
-      </header>
     </div>
   );
 }
